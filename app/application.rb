@@ -6,6 +6,7 @@ class Aplication
     
     if t.hour < 12
     resp.write "Good Morning!"
+  else t.hour
     resp.write "Good Afternoon!"
     rsp.finish
   end 
