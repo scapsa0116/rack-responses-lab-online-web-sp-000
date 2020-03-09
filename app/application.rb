@@ -10,7 +10,7 @@ class Application
     resp.write "Good Afternoon!"
     
     
-    rsp.finish
+    resp.finish
   end 
 end 
 end 
